@@ -1,0 +1,22 @@
+[package]
+name = "minio"
+version = "0.1.0"
+authors = ["MinIO Dev Team <dev@min.io>"]
+edition = "2021"
+
+[dependencies]
+hex = "0.4"
+md-5 = "0.10" 
+hmac = "0.12"
+sha2 = "0.10"
+http = "0.2"
+surf = "2.3"
+
+time = { version = "0.3", features = ["formatting", "macros"] }
+percent-encoding = "2"
+
+serde = "1"
+serde_derive = "1"
+serde-xml-rs = "0.5"
+
+async-std = "1.9"
